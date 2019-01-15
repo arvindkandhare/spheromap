@@ -1,6 +1,6 @@
 console.log("Hello world")
-var sphero = require("./lib/sphero"),
-    bb8 = sphero("F3:F2:6D:55:71:09"); // change BLE address accordingly
+var sphero = require("sphero"),
+    bb8 = sphero("D3-64-BC-09-4A-EC"); // change BLE address accordingly
 
 bb8.connect(function() {
   // roll BB-8 in a random direction, changing direction every second
